@@ -1,0 +1,66 @@
+#body {
+  background-color: #88fcec;
+}
+
+#countryInfo {
+  background-color: #7999f0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: none; /* Hide the container initially */
+}
+
+#nation {
+  color: purple;
+}
+
+#each {
+  color: orange;
+}
+
+#customSearchBtn {
+  background-color: #ba00e3;
+  color: #ffffff; /* White font color */
+  border-color: #ba00e3;
+}
+
+#customSearchBtn:hover {
+  background-color: #7e007f; /* Darker purple on hover */
+  border-color: #7e007f;
+  color: #ffffff; /* White font color on hover */
+}
+
+.country-data {
+  flex: 1 1 calc(33.33% - 10px); /* Adjust the width and spacing as needed */
+  margin-bottom: 10px;
+  margin: 3px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.country-data:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#margin {
+  margin-bottom: 300px;
+}
+
+#footer {
+  position: relative;
+  right: 0px;
+  left: 0px;
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  text-align: center;
+  padding: 10px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
